@@ -5,7 +5,7 @@ require 'simplecov/gitblame/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "simplecov-gitblame"
-  spec.version       = Simplecov::Gitblame::VERSION
+  spec.version       = SimpleCov::Formatter::GitblameFormatter::VERSION
   spec.authors       = ["Jens Fahnenbruck"]
   spec.email         = ["jigfox@me.com"]
   spec.description   = %q{a very simple formatter for simplecov that breaks down coverage by user}
