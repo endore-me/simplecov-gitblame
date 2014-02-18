@@ -29,7 +29,7 @@ module SimpleCov
         end
 
         def coverage
-          sprintf('%.1f%%', covered.to_f/lines * 100)
+          covered.to_f/lines * 100
         end
 
         def worst_file
